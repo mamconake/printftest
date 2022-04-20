@@ -28,7 +28,7 @@ The available convertion specifiers are:
 
 ```
 
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * main - Entry point
@@ -43,7 +43,7 @@ int main(void)
 	char *str;
 
 	str = "school";
-	a = _printf("%r\n", "Holberton"); /*expected: notrebloh*/
+	a = _printf("%r\n", "Alx"); /*expected: notrebloh*/
 	printf("--->%d\n", a); /*expected: 10*/
 
 	b = _printf("%r\n", str); /*expected: loohcs*/
